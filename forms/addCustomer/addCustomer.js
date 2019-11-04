@@ -37,3 +37,20 @@ btnAdd.onclick=function(){
     }  
 
 }
+
+hmbNavCopy1.onclick=function(){
+  switch (hmbNavCopy1.selection){
+ case 'See Customer':
+    ChangeForm(seeCustomers)
+    break;
+  case 'Add Customer':
+  ChangeForm(addCustomer)
+  break;
+case 'Edit Customer':
+  ChangeForm(deleteUpdateCustomer)
+  Break;
+case 'DDelete Customer':
+  ChangeForm(deleteUpdateCustomer)
+  break;
+}
+}
