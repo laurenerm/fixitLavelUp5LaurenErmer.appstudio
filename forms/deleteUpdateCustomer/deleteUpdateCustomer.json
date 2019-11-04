@@ -45,6 +45,15 @@
         "Elements", 
         "btnUpdate.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomer", 
+        "Elements", 
+        "hmbNavCopy.json"
+      ]
     }
   ], 
   "class": "", 

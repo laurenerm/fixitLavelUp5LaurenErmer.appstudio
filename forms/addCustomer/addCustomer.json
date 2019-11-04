@@ -81,6 +81,15 @@
         "Elements", 
         "btnAdd.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "hmbNavCopy1.json"
+      ]
     }
   ], 
   "class": "", 

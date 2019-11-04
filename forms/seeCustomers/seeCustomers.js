@@ -23,3 +23,20 @@ let query = "SELECT * FROM customer WHERE name=" + drpInfo.selection
   lblAddress.value = `${results[2]}`
   lblCity.value = `${results[3]}, ${results[4]}, ${results[5]}`
 }
+
+hmbNav.onclick=function(){
+switch (hmbNav.selection){
+ case 'See Customer':
+    ChangeForm(seeCustomers)
+    break;
+  case 'Add Customer':
+  ChangeForm(addCustomer)
+  break;
+case 'Edit Customer':
+  ChangeForm(deleteUpdateCustomer)
+  Break;
+case 'DDelete Customer':
+  ChangeForm(deleteUpdateCustomer)
+  break;
+}
+}

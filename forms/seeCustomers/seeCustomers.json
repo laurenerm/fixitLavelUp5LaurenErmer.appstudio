@@ -54,6 +54,15 @@
         "Elements", 
         "lblCity.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "hmbNav.json"
+      ]
     }
   ], 
   "class": "", 
